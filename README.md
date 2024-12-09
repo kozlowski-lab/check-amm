@@ -1,1 +1,1 @@
-# check-amm
+Check AMM processes Supporting Information (SI) documents to: (i) verify the integrity</strong> of Accurate Mass Measurement (AMM) data, formerly known as High-Resolution Mass Spectrometry (HRMS), (ii) identify discrepancies</strong> between the calculated and measured accurate masses and the proposed molecular formula, and (iii) comment on potential deviations</strong> from the proposed molecular formula that would reconcile the calculated and measured accurate masses.
