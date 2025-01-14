@@ -66,6 +66,6 @@ This project is licensed under the GNU GPLv3 License - see the [COPYING](COPYING
 - [`molmass`](https://github.com/cgohlke/molmass) (BSD-3-Clause License)
 - [`PyMuPDF`](https://github.com/pymupdf/PyMuPDF) (AGPL-3.0 License)
 - [`pandas`](https://github.com/pandas-dev/pandas) (BSD-3-Clause license)
-- [`FPDF`](https://github.com/Setasign/FPDF?tab=readme-ov-file) (Custom License)
+- [`fpdf2`]([https://github.com/Setasign/FPDF?tab=readme-ov-file](https://github.com/py-pdf/fpdf2)) (LGPL-3.0 License)
 
-The adapted [`HRMS-Checker`](https://github.com/match22lab/HRMS-Checker-2.0) is also licensed under the GNU GPLv3 License.
+The adapted [`HRMS-Checker`](https://github.com/match22lab/HRMS-Checker-2.0) is also licensed under the GNU GPLv3 License. See [LICENSES](https://github.com/kozlowski-lab/check-amm/LICENSES) for more detailed information.
