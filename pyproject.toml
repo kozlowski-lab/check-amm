@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "check-amm"
+authors = [
+    {name = "Marisa Kozlowski", email = "marisa@sas.upenn.edu"},
+    {name = "Guillermo Correa Otero", email = "guille79@sas.upenn.edu"},
+    {name = "Sarah Zhang", email = "zhangsar@seas.upenn.edu"},
+]
+maintainers = [
+    {name = "Guillermo Correa Otero", email = "guille79@sas.upenn.edu"},
+    {name = "Sarah Zhang", email = "zhangsar@seas.upenn.edu"},
+]
+description="check-amm reports on the integrity of AMM data"
+readme = "README.md"
+license = {file = "COPYING"}
+requires-python = ">= 3.9"
+dependencies = [
+    "molmass",
+    "PyMuPDF",
+    "fpdf2",
+    "pandas",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dynamic = ["version"]
+
+[project.scripts]
+my-script = "check-amm.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/kozlowski-lab/check-amm"
+Issues = "https://github.com/kozlowski-lab/check-amm/issues"
+Discussions = "https://github.com/kozlowski-lab/check-amm/discussions"
